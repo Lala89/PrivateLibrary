@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "isabella" => "ioliveri@italcom.biz" }
-  s.source           = { :git => "https://srvosx.local/git/ItalcomPods.git" , :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Lala89/PrivateLibrary.git" , :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-s.source_files = 'Example'
+s.source_files = 'Pod/Classes/*'
   s.resource_bundles = {
     'PrivateLibrary' => ['Pod/Assets/*.png']
   }
